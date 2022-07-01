@@ -1,0 +1,122 @@
+* {
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    color: rgb(63, 62, 62);
+}
+
+.container {
+    width: 320px;
+    position: absolute;
+    z-index: -10;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    height: 230px;
+    left: 50%;
+    top: 50%; 
+    margin-left: -160px;
+    margin-top: -100px;
+ }
+ 
+ .container-title {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+ }
+
+ .close {
+    color: black;
+    float: right;
+    margin: 0 20px 0 0;
+    opacity: 1;
+ }
+
+ #x-button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+ }
+
+ #x-button:active {
+    opacity: 0.5;
+ }
+
+#x-button:hover {
+    color: white;
+    background-color: red;
+}
+
+ .container-body {
+    margin-top: 20px;
+    margin-left: 20px;
+ }
+
+input {
+    display: block;
+    margin-top: 10px;
+    width: 90%;
+    height: 2em;
+    border: 1px solid #bbc3ce;
+    border-radius: 2px;
+    font-size: 15px;
+}
+
+.buttons {
+    float: right;
+    margin-top: 30px;
+ }
+
+ .submit-button {
+    height: 30px;
+    width: 80px;
+    background-color: #5755d8;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: large;
+ }
+
+ .submit-button:active {
+    opacity: 0.5;
+ }
+
+.submit-button:hover {
+    opacity: 0.7;
+    background-color: black
+}
+
+ .close-button {
+    margin-right: 20px;
+    height: 30px;
+    width: 60px;
+    background-color: white;
+    border: none;
+    color: #5755d8;
+    cursor: pointer;
+    font-size: large;
+ }
+
+ .close-button:active {
+    opacity: 0.5;
+ }
+
+ .close-button:hover {
+    opacity: 0.7;
+    background-color: #5755d8;
+    color: white;
+    border-radius: 3px;
+ }
+
+ .footer {
+    position: absolute;
+    bottom: 5%;
+ }
+
+ p {
+    color: #bbc3ce;
+ }
+
+ span {
+    color: red;
+    opacity: 0.5;
+ }
